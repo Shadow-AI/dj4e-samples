@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
 
+    'polls.apps.PollsConfig',
+
     # Extensions - installed with pip3 / requirements.txt
     'django_extensions',
     'crispy_forms',
