@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 def helloworld(request):
     logging.error('Hello world DJ4E in the log...')
     print('Hello world DJ4E in a print statement...')
-    response = """<html><body><p>Hello world DJ4E in HTML</p>
+    response = """<html><body><p>f231f210 Hello world DJ4E in HTML</p>
     <p>This sample code is available at
     <a href="https://github.com/csev/dj4e-samples">
     https://github.com/csev/dj4e-samples</a></p>
