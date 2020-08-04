@@ -8,12 +8,17 @@ logger = logging.getLogger(__name__)
 
 def helloworld(request):
     logging.error('Hello world DJ4E in the log...')
-    print('Hello world DJ4E in a print statement...')
+    print('Hello world f231f210 DJ4E in a print statement...')
+
+    visits = request.session.get('visits', 0) + 1
+    request.session['visits'] = visits
+    if visits > 3:
+        del (request.session['visits'])
+
     response = """<html><body><p>f231f210 Hello world DJ4E in HTML</p>
-    <p>This sample code is available at
-    <a href="https://github.com/csev/dj4e-samples">
-    https://github.com/csev/dj4e-samples</a></p>
+    
+    <p>view count = """+str(visits)+"""</p>
     </body></html>"""
-    resp=HttpResponse(response)
+    resp = HttpResponse(response)
     resp.set_cookie('dj4e_cookie', 'f231f210', max_age=1000)
     return resp

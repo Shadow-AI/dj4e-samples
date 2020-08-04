@@ -6,7 +6,7 @@
 </head>
 {% spaceless %}
 <body>
-    {% if latest_question_list %}
+    {% if latest_question_list %}Hello
     <ul>
     {% for question in latest_question_list %}
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
@@ -16,7 +16,7 @@
     <p>No polls are available.</p>
     {% endif %}
     {% lorem %}
-    {% spaceless %} nigger f42c7f9c  auuwu aj aghkfgktgwwtg kwgkf a kh{% endspaceless %}
+    {% spaceless %} nigger f231f210   auuwu aj aghkfgktgwwtg kwgkf a kh{% endspaceless %}
 </body>
 {% endspaceless %}
 </html>
