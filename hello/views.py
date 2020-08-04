@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 # Create your views here.
 
 def helloworld(request):
@@ -13,5 +14,6 @@ def helloworld(request):
     <a href="https://github.com/csev/dj4e-samples">
     https://github.com/csev/dj4e-samples</a></p>
     </body></html>"""
-    return HttpResponse(response)
-
+    resp=HttpResponse(response)
+    resp.set_cookie('dj4e_cookie', 'f231f210', max_age=1000)
+    return resp
