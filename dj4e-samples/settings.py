@@ -41,13 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
 
     'polls.apps.PollsConfig',
+    'home.apps.HomeConfig',
 
     # Extensions - installed with pip3 / requirements.txt
     'django_extensions',
     'crispy_forms',
     'rest_framework',
     'social_django',
-    'home.apps.HomeConfig',
 
     # Sample Applications - don't copy
     'hello.apps.HelloConfig',
