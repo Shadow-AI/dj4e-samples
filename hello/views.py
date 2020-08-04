@@ -17,7 +17,7 @@ def helloworld(request):
 
     response = """<html><body><p>f231f210 Hello world DJ4E in HTML</p>
     
-    <p>view count = """+str(visits)+"""</p>
+    <p>view count="""+str(visits)+"""</p>
     </body></html>"""
     resp = HttpResponse(response)
     resp.set_cookie('dj4e_cookie', 'f231f210', max_age=1000)
