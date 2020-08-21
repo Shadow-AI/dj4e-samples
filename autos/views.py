@@ -6,7 +6,7 @@ from django.urls import reverse_lazy, reverse
 from django.views import View
 from django.views.generic import CreateView
 
-from autos.forms import MakeForm
+from autos.forms import MakeForm, AutoForm
 from autos.models import Make, Auto
 
 
@@ -82,7 +82,7 @@ class AutoUpdate(LoginRequiredMixin, View):
 
     def get(self, request, pk):
         get_object_or_404(Auto, pk=pk)
-        form = MakeForm()
+        form = AutoForm()
         return render(request, self.template, {'form': form})
 
     def post(self, request, pk):
