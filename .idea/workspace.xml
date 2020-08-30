@@ -28,9 +28,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cats/templates/cats" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\dj4e-samples\cats\templates\cats" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\dj4e-samples\polls\templates\polls" />
     </key>
@@ -53,21 +57,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="160" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1596193705551" />
+    <state x="989" y="244" key="FileChooserDialogImpl" timestamp="1598363492953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="989" y="244" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598363492953" />
     <state x="727" y="144" key="SettingsEditor" timestamp="1596192501828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="144" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596192501828" />
-    <state x="922" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1598035707921">
+    <state x="922" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1598363044869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="326" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598035707921" />
+    <state x="922" y="326" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598363044869" />
     <state x="906" y="100" width="607" height="804" key="find.popup" timestamp="1596538071163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="906" y="100" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596538071163" />
-    <state x="889" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1596479417152">
+    <state x="889" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1598788245042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="889" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596479417152" />
+    <state x="889" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598788245042" />
   </component>
 </project>

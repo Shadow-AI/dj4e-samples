@@ -78,7 +78,7 @@ class AutoCreate(LoginRequiredMixin, CreateView):
 
 
 class AutoUpdate(LoginRequiredMixin, View):
-    template = 'autos/auto_form.html'
+    template = 'autos/cat_form.html'
 
     def get(self, request, pk):
         get_object_or_404(Auto, pk=pk)
