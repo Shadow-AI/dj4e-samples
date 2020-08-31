@@ -69,13 +69,13 @@ class BreedUpdate(LoginRequiredMixin, View):
 
     def get(self, request, pk):
         breed = get_object_or_404(self.model, pk=pk)
-        form = BreedForm()
+        form = BreedForm(instance=breed)
         ctx = {'form': form}
         return render(request, self.template, ctx)
 
     def post(self, request, pk):
         breed = get_object_or_404(self.model, pk=pk)
-        form = BreedForm(request.POST)
+        form = BreedForm(request.POST, instance=breed)
         ctx = {'form': form}
         if not form.is_valid():
             return render(request, self.template, ctx)
